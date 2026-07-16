@@ -487,15 +487,16 @@ display: block;
 
 .poster-tag {
 position: absolute;
+top: 8px;
 left: 8px;
-bottom: 8px;
-background: rgba(23, 32, 51, 0.06);
-color: var(--muted);
+background: linear-gradient(135deg, #163b7a, #2563eb);
+color: #ffffff;
 font-size: 0.72rem;
-padding: 4px 8px;
+padding: 5px 9px;
 border-radius: 999px;
 font-weight: 700;
-backdrop-filter: blur(4px);
+box-shadow: 0 6px 16px rgba(22, 59, 122, 0.25);
+letter-spacing: 0.02em;
 }
 
 .publication h3,
